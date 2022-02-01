@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/scoreTrack_4"
+        android:layout_width="126dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="60dp"
+        android:text="20"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minusFive_4" />
+
+    <Button
+        android:id="@+id/plusFive_4"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="100dp"
+        android:text="+5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/minusFive_4" />
+
+    <Button
+        android:id="@+id/minusFive_4"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="100dp"
+        android:text="-5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/plusOne_4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="12dp"
+        android:text="+"
+        app:layout_constraintBottom_toTopOf="@+id/plusFive_4"
+        app:layout_constraintEnd_toStartOf="@+id/minusOne_4" />
+
+    <TextView
+        android:id="@+id/playertext_4"
+        android:layout_width="126dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="4dp"
+        android:text="Player 4"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/plusOne_4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/minusOne_4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="48dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/minusFive_4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/minusFive_3"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="108dp"
+        android:text="-5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/plusFive_3" />
+
+    <TextView
+        android:id="@+id/playertext_3"
+        android:layout_width="126dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="32dp"
+        android:text="Player 3"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/plusOne_3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/minusOne_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/minusFive_3"
+        app:layout_constraintStart_toEndOf="@+id/plusOne_3" />
+
+    <TextView
+        android:id="@+id/scoreTrack_3"
+        android:layout_width="126dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="60dp"
+        android:text="20"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minusFive_3" />
+
+    <Button
+        android:id="@+id/plusFive_3"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="108dp"
+        android:text="+5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/plusOne_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="47dp"
+        android:text="+"
+        app:layout_constraintBottom_toTopOf="@+id/plusFive_3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/plusFive_1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="200dp"
+        android:text="+5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plusOne_1" />
+
+    <Button
+        android:id="@+id/plusOne_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="215dp"
+        android:text="+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playertext_1" />
+
+    <Button
+        android:id="@+id/minusOne_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="215dp"
+        android:text="-"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playertext_2" />
+
+    <TextView
+        android:id="@+id/scoreTrack_2"
+        android:layout_width="126dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="200dp"
+        android:text="20"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minusFive_2" />
+
+    <Button
+        android:id="@+id/plusOne_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:text="+"
+        app:layout_constraintEnd_toStartOf="@+id/minusOne_2"
+        app:layout_constraintTop_toBottomOf="@+id/playertext_2" />
+
+    <Button
+        android:id="@+id/plusFive_2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="6dp"
+        android:text="+5"
+        app:layout_constraintEnd_toStartOf="@+id/minusFive_2"
+        app:layout_constraintTop_toBottomOf="@+id/plusOne_2" />
+
+    <Button
+        android:id="@+id/minusFive_2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="200dp"
+        android:text="-5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minusOne_2" />
+
+    <TextView
+        android:id="@+id/playertext_2"
+        android:layout_width="126dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="200dp"
+        android:text="Player 2"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playertext_1"
+        android:layout_width="126dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:text="Player 1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/minusOne_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/plusOne_1"
+        app:layout_constraintTop_toBottomOf="@+id/playertext_1" />
+
+    <Button
+        android:id="@+id/minusFive_1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:text="-5"
+        app:layout_constraintStart_toEndOf="@+id/plusFive_1"
+        app:layout_constraintTop_toBottomOf="@+id/plusOne_1" />
+
+    <TextView
+        android:id="@+id/scoreTrack_1"
+        android:layout_width="126dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="200dp"
+        android:text="20"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minusFive_1" />
+
+    <TextView
+        android:id="@+id/loserText"
+        android:layout_width="357dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
